@@ -1,0 +1,38 @@
+Q. What are conditional statements? Explain conditional statements with syntax and examples.
+Ans. Conditional statements in javascript execute a piece of code based on whether a condition is true or false.
+There are three types of conditional statements in javascript-
+1)If Statement- Executes a block of code if the condition evaluates to true.If the condition evaluates to false the block of code inside the paranthesis is skipped.
+SYNTAX-
+if (condition) {
+  // block of code to be executed if the condition is true
+}
+2)If else Statement-If you want to execute a block of code if the condition evaluates to false then use If else statement.
+SYNTAX-
+// if...else statement
+if (condition) {
+  // block of code to be executed if the condition is true
+} else {
+  // block of code to be executed if the condition is false
+}
+
+// if...else if...else statement
+if (condition1) {
+  // block of code to be executed if condition1 is true
+} else if (condition2) {
+  // block of code to be executed if the condition1 is false and condition2 is true
+} else {
+  // block of code to be executed if the condition1 is false and condition2 is false
+}
+3)Switch Statement-used to select one of many blocks of code based on the value of a variable.It is a good alternative to if...else...if chain if it runs too long.It uses the strict equality operator(===) to compare the variable with the case value. 
+SYNTAX-
+switch (expression) {
+  case value1:
+    // Statements executed when the result of expression matches value1
+    break;
+  case value2:
+    // Statements executed when the result of expression matches value2
+    break;
+  ...
+  default:
+    // Statements executed when none of the values match the value of the expression
+}
